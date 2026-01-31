@@ -189,7 +189,7 @@
     /* others
      */
     --color-body  : var(--color-1);
-    --color-bg    : #14171B;
+    --color-bg    : #cccccc;
     --color-border: var(--color-gray-17);
 }
 
