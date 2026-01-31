@@ -139,11 +139,8 @@
 
     <script>
 
-     //$("#expertise").click(function(){
-          //alert('test')
-     //});
 
-     $("#menu").delegate("li", "click", function() {
+     $("#menu").delegate("#expertise", "click", function() {
          var index = $(this).index()
          alert(index) 
      });
@@ -154,6 +151,7 @@
 
 
 </html>
+
 
 
 
