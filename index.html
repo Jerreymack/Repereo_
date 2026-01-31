@@ -141,8 +141,17 @@
 
 
      $("#menu").delegate("#expertise", "click", function() {
-         var index = $(this).index()
-         alert(index) 
+         
+        const body = document.body;
+        body.classList.add('transition-active');
+        setTimeout(() => {
+          alert('test')
+          //window.location.href = "expertise.html";
+          //setTimeout(() => {
+             //body.classList.remove('transition-active');
+          //}, 100);
+          }, 400);
+         
      });
         
     </script>
@@ -151,6 +160,7 @@
 
 
 </html>
+
 
 
 
