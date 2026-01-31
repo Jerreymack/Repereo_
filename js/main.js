@@ -330,4 +330,25 @@
 
     })();
 
+
 })(jQuery);
+
+
+
+
+
+//*-------------------------------------------------------------------------------//
+//-------------------------------------EXPERTISE----------------------------------//
+//-------------------------------------------------------------------------------*//
+    
+const expertBtn = document.getElementById('expertise');       
+      expertBtn.addEventListener('click', () => {
+      const body = document.body;
+      body.classList.add('transition-active');
+      setTimeout(() => {
+          window.location.href = "expertise.html";
+          setTimeout(() => {
+             body.classList.remove('transition-active');
+          }, 100);
+        }, 400);
+    }); 
