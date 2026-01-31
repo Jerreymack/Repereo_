@@ -4976,7 +4976,8 @@ html.no-csstransitions .s-hero__content {
 /*---------------------------------------------------------------------*/
 #expertise:hover {
       color: #ccc;
-      transform: scale(1.1);
+      transform: scale(1.06);
+      cursor: pointer;
 }   
 
 /*---------------------------------------------------------------------*/
