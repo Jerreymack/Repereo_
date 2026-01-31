@@ -65,7 +65,7 @@
         <div class="s-header__content">
     
             <nav class="s-header__nav-wrap">
-                <ul class="s-header__nav">
+                <ul class="s-header__nav" id="menu">
                     <li><a class="smoothscroll" href="#hero" title="Intro">À propos</a></li>
                     <li id="expertise">Expertise</li>
                     <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
@@ -139,8 +139,13 @@
 
     <script>
 
-     $("#expertise").click(function(){
-          alert('test')
+     //$("#expertise").click(function(){
+          //alert('test')
+     //});
+
+     $("#menu").delegate("li", "click", function() {
+         var index = $(this).index()
+         alert(index) 
      });
         
     </script>
@@ -149,6 +154,7 @@
 
 
 </html>
+
 
 
 
