@@ -143,6 +143,28 @@
      * (https://maketintsandshades.com/)
      */
 
+    --color-black  : #000000;
+    --color-gray-19: #0b0b0c;
+    --color-gray-18: #161719;
+    --color-gray-17: #202225;
+    --color-gray-16: #2b2e32;
+    --color-gray-15: #363a3f;
+    --color-gray-14: #41454b;
+    --color-gray-13: #4c5158;
+    --color-gray-12: #565c64;
+    --color-gray-11: #616871;
+    --color-gray-10: #6c737d;
+    --color-gray-9 : #7b818a;
+    --color-gray-8 : #898f97;
+    --color-gray-7 : #989da4;
+    --color-gray-6 : #a7abb1;
+    --color-gray-5 : #b6b9be;
+    --color-gray-4 : #c4c7cb;
+    --color-gray-3 : #d3d5d8;
+    --color-gray-2 : #e2e3e5;
+    --color-gray-1 : #f0f1f2;
+    --color-white  : #ffffff;
+
 
     /* text
      */
