@@ -322,11 +322,91 @@ body, html {
 $(document).ready(function(){
      var wdt = $(window).width()
      console.log(wdt)
+     var wdt = $(window).width()
+     console.log(wdt)
+     if ( wdt < 450 ) {
+        //$('.logo').css('left','2%')
+        //$('.logo').css('zoom','0.7')
+        //$('.logo').css('margin-top','32px')
+        //$('.logo').css('transform','translate(2%)')
+        //$('.accr').css('font-size','20px') 
+        $('.expertise_ttl').css('top','50px')
+        $('.expertise_ttl').css('font-size','36px') 
+        $('.expertise_txt').css('top','450px')
+        $('.expertise_txt').css('font-size','18px')
+        $('.expertise').css('margin-top','580px')
+       
+        $('.squareicon').css('top','36%')
+        $('.squareicon').css('width','300px')
+        $('.squareicon').css('height','300px')
+       
+        $('.squareicon2').css('display','none')
+        $('.squareicon3').css('display','none')
+       
+        $('.main_img').css('height','250px')
+        $('.main_img').css('min-height','250px')
+       
+        //$('.coach_msg').css('top','2724px')
+        //$('.coach_msg').css('font-size','20px')
+        //$('.coach_msg').css('width','90%')
 
+
+     }
   
-    setTimeout(function(){ 
-        $('.logo').fadeIn()
-    }, 1200);
+    if ( wdt > 450 &&  wdt < 769) {
+        //$('.logo').css('left','2%')
+        //$('.logo').css('zoom','0.7')
+        //$('.logo').css('margin-top','32px')
+        //$('.logo').css('transform','translate(2%)')
+        //$('.accr').css('font-size','20px') 
+        $('.expertise_ttl').css('top','50px')
+        $('.expertise_ttl').css('font-size','42px') 
+        $('.expertise_txt').css('top','550px')
+        $('.expertise_txt').css('font-size','20px')
+        $('.expertise').css('margin-top','650px')
+
+        $('.squareicon').css('top','36%')
+        $('.squareicon').css('width','300px')
+        $('.squareicon').css('height','300px')
+      
+        $('.squareicon2').fadeIn()
+        $('.squareicon3').css('display','none')
+      
+        $('.main_img').css('height','350px')
+        $('.main_img').css('max-height','350px')
+        //$('.coach_msg').css('top','2724px')
+        //$('.coach_msg').css('font-size','20px')
+        //$('.coach_msg').css('width','80%')
+
+     }
+  
+     if ( wdt > 760 ) {
+        //$('.logo').css('left','2%')
+        //$('.logo').css('zoom','0.7')
+        //$('.logo').css('margin-top','32px')
+        //$('.logo').css('transform','translate(2%)')
+        //$('.accr').css('font-size','20px') 
+        //$('.expertise').css('top','100px')
+        $('.expertise_ttl').css('top','50px')
+        $('.expertise_ttl').css('font-size','46px') 
+        $('.expertise_txt').css('top','720px')
+        $('.expertise_txt').css('font-size','22px')
+        $('.expertise').css('margin-top','900px')
+       
+        $('.squareicon').css('top','36%')
+        $('.squareicon').css('width','500px')
+        $('.squareicon').css('height','500px')
+       
+             
+        $('.squareicon2').fadeIn()
+        $('.squareicon3').fadeIn()
+       
+        $('.main_img').css('height','350px')
+        $('.main_img').css('min-height','500px')
+        //$('.coach_msg').css('top','1470px')
+        //$('.coach_msg').css('font-size','20px')
+
+     }
 });
 
 
